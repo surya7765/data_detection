@@ -60,6 +60,7 @@ const TweetBox = () => {
       ])
       .commit()
 
+    setTweetMessage('');
   }
 
   return (

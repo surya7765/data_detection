@@ -2,8 +2,7 @@ import { useContext, useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 import { BsArrowLeftShort } from 'react-icons/bs'
 import Modal from 'react-modal'
-import {BlogContext} from '../../context/BlogContext'
-
+import { BlogContext } from '../../context/BlogContext'
 
 const style = {
   wrapper: `border-[#38444d] border-b`,
@@ -59,7 +58,7 @@ const ProfileHeader = () => {
         <div className={style.details}>
           <div className={style.primary}>{currentUser.name}</div>
           <div className={style.secondary}>
-            {currentUser.blogs?.length} {' '}
+            {currentUser.blogs?.length}{' '}
             {currentUser.blogs?.length === 1 ? 'Blog' : 'Blogs'}
           </div>
         </div>
