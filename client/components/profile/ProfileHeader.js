@@ -24,31 +24,6 @@ const style = {
 const ProfileHeader = () => {
   const { currentAccount, currentUser } = useContext(BlogContext)
   const router = useRouter()
-  // const [userData, setUserData] =
-  //   useState <
-  //   UserData >
-  //   {
-  //     name: '',
-  //     profileImage: '',
-  //     coverImage: '',
-  //     walletAddress: '',
-  //     tweets: [],
-  //     isProfileImageNft: undefined,
-  //   }
-
-  // useEffect(() => {
-  //   if (!currentUser) return
-
-  //   setUserData({
-  //     name: currentUser.name,
-  //     profileImage: currentUser.profileImage,
-  //     walletAddress: currentUser.walletAddress,
-  //     coverImage: currentUser.coverImage,
-  //     blogs: currentUser.blogs,
-  //     isProfileImageNft: currentUser.isProfileImageNft,
-  //   })
-  // }, [currentUser])
-
   return (
     <div className={style.wrapper}>
       <div className={style.header}>

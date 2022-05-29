@@ -14,31 +14,6 @@ const ProfileTweets = () => {
 
   const { currentUser,currentAccount } = useContext(BlogContext)
 
-  // const [tweets, setTweets] = useState<Blogs>([
-  //   {
-  //     timestamp: '',
-  //     tweet: '',
-  //   },
-  // ])
-  // const [author, setAuthor] = useState<Author>({
-  //   name: '',
-  //   profileImage: '',
-  //   walletAddress: '',
-  //   isProfileImageNft: undefined,
-  // })
-
-  // useEffect(() => {
-  //   if (!currentUser) return
-
-  //   setTweets(currentUser.blogs)
-  //   setAuthor({
-  //     name: currentUser.name,
-  //     profileImage: currentUser.profileImage,
-  //     walletAddress: currentUser.walletAddress,
-  //     isProfileImageNft: currentUser.isProfileImageNft,
-  //   })
-  // }, [currentUser])
-
   console.log(currentUser);
 
   return (
